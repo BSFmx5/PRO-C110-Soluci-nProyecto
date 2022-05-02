@@ -1,16 +1,16 @@
 import random 
   
-# Take a variable to store response to keep rolling a dice
+# Toma una variable para almacenar la respuesta para seguir tirando un dado
 response = "y"
    
 while response == "y": 
       
-    # Gnenerates a random number 
-    # between 1 and 6 (including 
-    # both 1 and 6) 
+    # Gnenerates a random number Genera un numero aleatorio
+    # entre el 1 y 6 (incluyendo
+    # también el 1 y 6) 
     no = random.randint(1,6) 
 
-    # conditions to check the number value  
+    # condiciones para comprobar el valor del número
     if no == 1: 
         print("[-----]") 
         print("[     ]") 
@@ -48,6 +48,6 @@ while response == "y":
         print("[0 0 0]") 
         print("[-----]") 
           
-    # Ask user to enter a response      
-    response=input("press y to roll again and n to exit:") 
+    # Pide al usuario que introduzca una respuesta     
+    response=input("presione y para rodar de nuevo, presiona n para salir:") 
     print("\n") 
