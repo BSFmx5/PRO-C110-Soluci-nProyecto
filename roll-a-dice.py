@@ -49,5 +49,5 @@ while response == "y":
         print("[-----]") 
           
     # Pide al usuario que introduzca una respuesta     
-    response=input("presione y para rodar de nuevo, presiona n para salir:") 
+    response=input("presiona y para rodar de nuevo, presiona n para salir:") 
     print("\n") 
