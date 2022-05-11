@@ -5,7 +5,7 @@ response = "y"
    
 while response == "y": 
       
-    # Gnenerates a random number Genera un numero aleatorio
+    # Genera un numero aleatorio
     # entre el 1 y 6 (incluyendo
     # también el 1 y 6) 
     no = random.randint(1,6) 
